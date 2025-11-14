@@ -1,0 +1,23 @@
+{
+  "name": "f5f102-theme",
+  "displayName": "Nagabhushan Adiga's Theme",
+  "description": "A focused VS Code color theme featuring the F5F102 header.",
+  "version": "0.0.3",
+  "publisher": "NagabhushanAdiga",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nagabhushan Adiga's Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f5f102-color-theme.json"
+      }
+    ]
+  }
+}
+
