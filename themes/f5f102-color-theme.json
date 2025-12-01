@@ -50,7 +50,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#FF79C6"
+        "foreground": "#F5F102"
       }
     },
     {
@@ -73,11 +73,35 @@
     },
     {
       "scope": [
+        "entity.name.type",
+        "support.class",
+        "entity.name.tag.jsx",
+        "support.class.component.js",
+        "support.class.component.jsx",
+        "support.class.component.tsx"
+      ],
+      "settings": {
+        "foreground": "#F5F102"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.property",
+        "meta.property.object",
+        "meta.object-literal.key",
+        "support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#F5F102"
+      }
+    },
+    {
+      "scope": [
         "variable",
         "meta.definition.variable"
       ],
       "settings": {
-        "foreground": "#E6E8EF"
+        "foreground": "#F5F102"
       }
     },
     {
